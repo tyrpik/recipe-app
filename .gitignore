@@ -137,3 +137,23 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Angular build outputs
+/dist
+/tmp
+/out-tsc
+
+# Angular cache
+.angular/
+.angular/cache
+
+# IDE / editor files
+.vscode/
+.idea/
+
+# Test coverage
+/coverage
+
+# Environment files
+src/environments/environment*.ts
+
