@@ -1,5 +1,5 @@
-const app = require('./app');
-const connectDB = require('./db');
+import app from './app.js';
+import connectDB from './db.js';
 
 connectDB();
 

@@ -1,5 +1,5 @@
-const express = require('express');
-const categoriesRoutes = require('./routes/categories');
+import express from 'express';
+import categoriesRoutes from './routes/categories.js';
 
 const app = express();
 
@@ -7,4 +7,4 @@ app.use(express.json());
 
 app.use('/categories', categoriesRoutes);
 
-module.exports = app;
+export default app;
